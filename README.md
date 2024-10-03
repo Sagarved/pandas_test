@@ -1,2 +1,2 @@
 # pandas_test
-Pandas library testing
+Pandas library practice
