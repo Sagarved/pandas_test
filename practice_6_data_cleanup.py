@@ -44,3 +44,5 @@ To only replace empty values for one column, specify the column name for the Dat
 # Replace NULL values in the "Calories" columns with the number 100:
 df_clean_calories = dfdirty["Calories"].fillna(100)
 print(df_clean_calories.info())
+
+
