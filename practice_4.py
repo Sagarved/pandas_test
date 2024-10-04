@@ -19,8 +19,9 @@ print(df.shape)
 print(f"Maximum Rows set to: {pd.options.display.max_rows}")
 
 # You can change the maximum rows number with the same statement options.display.max_rows
-pd.options.display.max_rows = 100000
-df2 = pd.read_csv('data/powerball_python.csv')
+# pd.options.display.max_rows = 100000
+# df2 = pd.read_csv('data/powerball_python.csv')
+#
+# print(df2)
 
-print(df2)
 
