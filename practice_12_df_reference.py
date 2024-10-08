@@ -23,5 +23,5 @@ print(df.all())  # Provides information about each column True or False.
 print(df["Duration"].all())
 
 # One can change axis. It means instead of column all can treat each row as column
-print(df.all(axis=1
+print(df.all(axis=1)
 
