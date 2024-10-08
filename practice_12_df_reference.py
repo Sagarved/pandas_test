@@ -23,5 +23,18 @@ print(df.all())  # Provides information about each column True or False.
 print(df["Duration"].all())
 
 # One can change axis. It means instead of column all can treat each row as column
-print(df.all(axis=1)
+print(df.all(axis=1))
 
+
+# aggregate of columns value
+data = {
+  "x": [50, 40, 30],
+  "y": [300, 1112, 42]
+}
+
+dfd = pd.DataFrame(data)
+x_data = dfd.agg(["sum"])
+print(x_data)
+
+xrow_data = dfd.agg(["sum"], axis=1) # This will sum the value of row
+print(xrow_data)
