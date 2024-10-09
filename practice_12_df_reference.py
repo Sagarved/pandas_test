@@ -38,3 +38,27 @@ print(x_data)
 
 xrow_data = dfd.agg(["sum"], axis=1) # This will sum the value of row
 print(xrow_data)
+
+"""
+Returns the boolean value of the dataframe
+The bool() method returns a boolean value, True or False, reflecting the value of the DataFrame.
+This method will only work if the DataFrame has only 1 value, and that value must be either True or False, 
+otherwise the bool() method will return an error.
+"""
+dfboolean = pd.DataFrame({"val": [True]})
+print(f"Checking boolean for dataframe dfboolean {dfboolean.bool()}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
